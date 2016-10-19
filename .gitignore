@@ -1,0 +1,57 @@
+#################
+## WebStorm
+#################
+
+.idea/*
+.DS_Store
+
+#################
+## Mac
+#################
+.DS_Store
+
+
+############
+## Windows
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+############
+## Node
+############
+
+node_modules/
+npm-debug.log
+
+############
+## Configuration
+############
+config/development.js
+config/production.js
+config/runtime.json
+
+############
+## Misc
+############
+test/out/
+log/*.log
+test/lcov-report/
+test/lcov.info
+test/coverage.json
+
+############
+## vs code debug
+############
+.vscode/
+
+############
+## Lambdas
+############
+
+lambdas/d2c-processkinesisstream/dist
+lambdas/d2c-processkinesisstream/.idea
